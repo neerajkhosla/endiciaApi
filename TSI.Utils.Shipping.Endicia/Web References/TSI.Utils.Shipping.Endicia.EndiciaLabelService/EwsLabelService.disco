@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx?wsdl" docRef="https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx" xmlns:q1="www.envmgr.com/LabelService" binding="q1:EwsLabelServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://elstestserver.endicia.com/LabelService/EwsLabelService.asmx" xmlns:q2="www.envmgr.com/LabelService" binding="q2:EwsLabelServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <GetPostageLabel
+        xmlns="www.envmgr.com/LabelService">
+      <LabelRequest ImageFormat="PNG" ImageResolution="300" ImageRotation="None" LabelSize="4x6" LabelType="Default" Test="YES" LabelSubtype="None">
+        <DateAdvance>1</DateAdvance>
+        <MailClass>Priority</MailClass>
+        <MailpieceDimensions>
+          <Height>1</Height>
+          <Length>1</Length>
+          <Width>1</Width>
+        </MailpieceDimensions>
+        <SundayHolidayDelivery>FALSE</SundayHolidayDelivery>
+        <WeightOz>1</WeightOz>
+        <AccountID>1058169</AccountID>
+        <CostCenter>123</CostCenter>
+        <CustomsQuantity1>0</CustomsQuantity1>
+        <CustomsQuantity2>0</CustomsQuantity2>
+        <CustomsQuantity3>0</CustomsQuantity3>
+        <CustomsQuantity4>0</CustomsQuantity4>
+        <CustomsQuantity5>0</CustomsQuantity5>
+        <CustomsValue1>0</CustomsValue1>
+        <CustomsValue2>0</CustomsValue2>
+        <CustomsValue3>0</CustomsValue3>
+        <CustomsValue4>0</CustomsValue4>
+        <CustomsValue5>0</CustomsValue5>
+        <CustomsWeight1>0</CustomsWeight1>
+        <CustomsWeight2>0</CustomsWeight2>
+        <CustomsWeight3>0</CustomsWeight3>
+        <CustomsWeight4>0</CustomsWeight4>
+        <CustomsWeight5>0</CustomsWeight5>
+        <EntryFacility>Other</EntryFacility>
+        <FromCity>Long Beach</FromCity>
+        <FromCompany />
+        <FromEMail>devs.neeraj@gmail.com</FromEMail>
+        <FromName>Neeraj</FromName>
+        <FromPhone>5628521598</FromPhone>
+        <FromPostalCode>90807</FromPostalCode>
+        <FromState>CA</FromState>
+        <IncludePostage>TRUE</IncludePostage>
+        <InsuredValue>0</InsuredValue>
+        <Machinable>TRUE</Machinable>
+        <NoWeekendDelivery>TRUE</NoWeekendDelivery>
+        <PartnerCustomerID>1058169</PartnerCustomerID>
+        <PartnerTransactionID>12345</PartnerTransactionID>
+        <PassPhrase>dev neeraj</PassPhrase>
+        <POZipCode>90807</POZipCode>
+        <ReferenceID>12345</ReferenceID>
+        <ReplyPostage>FALSE</ReplyPostage>
+        <RequesterID>ltsi</RequesterID>
+        <ResponseOptions PostagePrice="TRUE" />
+        <ReturnAddress1>4300</ReturnAddress1>
+        <ReturnAddress2>Long Beach Blvd</ReturnAddress2>
+        <RubberStamp1 />
+        <Services AdultSignature="OFF" AdultSignatureRestrictedDelivery="OFF" CertifiedMail="OFF" COD="OFF" DeliveryConfirmation="OFF" ElectronicReturnReceipt="OFF" HoldForPickup="OFF" InsuredMail="OFF" OpenAndDistribute="OFF" RestrictedDelivery="OFF" ReturnReceipt="OFF" SignatureConfirmation="OFF" />
+        <ShipDate>01/07/2016</ShipDate>
+        <ShipTime>04:00 PM</ShipTime>
+        <ShowReturnAddress>TRUE</ShowReturnAddress>
+        <SignatureWaiver>TRUE</SignatureWaiver>
+        <ToAddress1>2691</ToAddress1>
+        <ToAddress2>Pasadena Ave</ToAddress2>
+        <ToCity>Long Beach</ToCity>
+        <ToCompany />
+        <ToCountry>USA</ToCountry>
+        <ToCountryCode>US</ToCountryCode>
+        <ToEMail>meet.best@gmail.com</ToEMail>
+        <ToName>Neeraj 2</ToName>
+        <ToPhone>5628521597</ToPhone>
+        <ToPostalCode>90806</ToPostalCode>
+        <ToState>CA</ToState>
+        <ValidateAddress>FALSE</ValidateAddress>
+        <Value>0</Value>
+      </LabelRequest>
+    </GetPostageLabel>
+  </soap:Body>
+</soap:Envelope>

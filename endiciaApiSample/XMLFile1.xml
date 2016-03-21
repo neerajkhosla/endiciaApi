@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetPostageLabel
+            xmlns="www.envmgr.com/LabelService">
+            <LabelRequest Test="YES" LabelType="Default" LabelSubtype="None" LabelSize="4x6" ImageFormat="PNG" ImageResolution="300" ImageRotation="None">
+                <MailClass>Priority</MailClass>
+                <WeightOz>12</WeightOz>
+                <MailpieceDimensions>
+                    <Length>1</Length>
+                    <Width>1</Width>
+                    <Height>1</Height>
+                </MailpieceDimensions>
+                <DateAdvance>1</DateAdvance>
+                <SundayHolidayDelivery>FALSE</SundayHolidayDelivery>
+                <RequesterID>ltsi</RequesterID>
+                <AccountID>1058169</AccountID>
+                <PassPhrase>dev neeraj</PassPhrase>
+                <Machinable>TRUE</Machinable>
+                <IncludePostage>FALSE</IncludePostage>
+                <ReplyPostage>FALSE</ReplyPostage>
+                <ShowReturnAddress>TRUE</ShowReturnAddress>
+                <ValidateAddress>FALSE</ValidateAddress>
+                <SignatureWaiver>TRUE</SignatureWaiver>
+                <NoWeekendDelivery>TRUE</NoWeekendDelivery>
+                <Services DeliveryConfirmation="OFF" CertifiedMail="OFF" COD="OFF" ElectronicReturnReceipt="OFF" InsuredMail="OFF" RestrictedDelivery="OFF" ReturnReceipt="OFF" SignatureConfirmation="OFF" HoldForPickup="OFF" OpenAndDistribute="OFF" AdultSignature="OFF" AdultSignatureRestrictedDelivery="OFF" />
+                <CostCenter>123</CostCenter>
+                <Value>1590</Value>
+                <InsuredValue>1590</InsuredValue>
+                <ReferenceID>1</ReferenceID>
+                <PartnerCustomerID>1058169</PartnerCustomerID>
+                <PartnerTransactionID>1</PartnerTransactionID>
+                <RubberStamp1>Printed via nopCommerce</RubberStamp1>
+                <EntryFacility>Other</EntryFacility>
+                <POZipCode>90802</POZipCode>
+                <ShipDate>01/08/2016</ShipDate>
+                <ShipTime>03:57 PM</ShipTime>
+                <ResponseOptions PostagePrice="TRUE" />
+                <FromName>OrioneSolutions</FromName>
+                <FromCompany />
+                <ReturnAddress1>340 Golden </ReturnAddress1>
+                <ReturnAddress2>Shore</ReturnAddress2>
+                <FromCity>Long Beach</FromCity>
+                <FromState>CA</FromState>
+                <FromPostalCode>90802</FromPostalCode>
+                <FromPhone>5624372600 </FromPhone>
+                <FromEMail />
+                <ToName>Neeraj Khosla</ToName>
+                <ToCompany>orionesolutions</ToCompany>
+                <ToAddress1>438 E</ToAddress1>
+                <ToAddress2>1st St</ToAddress2>
+                <ToCity>Long Beach</ToCity>
+                <ToState>CA</ToState>
+                <ToPostalCode>90802</ToPostalCode>
+                <ToCountry>United States</ToCountry>
+                <ToCountryCode>US</ToCountryCode>
+                <ToPhone>5622704380</ToPhone>
+                <ToEMail>neeraj.khosla@orionesolutions.com</ToEMail>
+                <CustomsQuantity1>0</CustomsQuantity1>
+                <CustomsValue1>0</CustomsValue1>
+                <CustomsWeight1>0</CustomsWeight1>
+                <CustomsQuantity2>0</CustomsQuantity2>
+                <CustomsValue2>0</CustomsValue2>
+                <CustomsWeight2>0</CustomsWeight2>
+                <CustomsQuantity3>0</CustomsQuantity3>
+                <CustomsValue3>0</CustomsValue3>
+                <CustomsWeight3>0</CustomsWeight3>
+                <CustomsQuantity4>0</CustomsQuantity4>
+                <CustomsValue4>0</CustomsValue4>
+                <CustomsWeight4>0</CustomsWeight4>
+                <CustomsQuantity5>0</CustomsQuantity5>
+                <CustomsValue5>0</CustomsValue5>
+                <CustomsWeight5>0</CustomsWeight5>
+            </LabelRequest>
+        </GetPostageLabel>
+    </soap:Body>
+</soap:Envelope>
